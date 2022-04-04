@@ -3,7 +3,7 @@ import { OrbitControls, Stars } from '@react-three/drei'
 import BoxOne from './BoxOne'
 import Lighting from './Lighting'
 import Plane from './Plane'
-import Physics from './Physics'
+import { Physics, useBox, usePlane } from '@react-three/cannon'
 
 const Scene = () => {
   return (
@@ -11,7 +11,10 @@ const Scene = () => {
       <OrbitControls />
       <Stars />
       <Lighting /> 
-        <BoxOne />
+      <Physics>
+        <BoxOne useBox={useBox} />
+        <Plane usePlane={usePlane} />
+      </Physics>
     </Canvas>
   )
 }

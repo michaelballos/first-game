@@ -1,5 +1,8 @@
 import { Canvas, Camera } from '@react-three/fiber'
 import { OrbitControls } from '@react-three/drei'
+import BoxOne from './BoxOne'
+import Lighting from './Lighting'
+import Plane from './Plane'
 
 const Scene = () => {
   return (
@@ -7,8 +10,7 @@ const Scene = () => {
       <OrbitControls />
       <Lighting /> 
       <mesh>
-        <boxBufferGeometry attach="geometry" args={[1, 1, 1]} />
-        <meshBasicMaterial attach="material" color={'#BADA55'} />
+        <Plane />
       </mesh>
     </Canvas>
   )

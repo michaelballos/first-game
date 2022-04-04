@@ -1,17 +1,17 @@
 import { Canvas, Camera } from '@react-three/fiber'
-import { OrbitControls } from '@react-three/drei'
+import { OrbitControls, Stars } from '@react-three/drei'
 import BoxOne from './BoxOne'
 import Lighting from './Lighting'
 import Plane from './Plane'
+import Physics from './Physics'
 
 const Scene = () => {
   return (
     <Canvas camera={{ position: [0,0,1], fov: 45 }}>
       <OrbitControls />
+      <Stars />
       <Lighting /> 
-      <mesh>
-        <Plane />
-      </mesh>
+        <BoxOne />
     </Canvas>
   )
 }

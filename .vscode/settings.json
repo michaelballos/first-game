@@ -1,0 +1,84 @@
+{
+    "editor.fontSize": 20,
+    "editor.wordWrap": "off",
+    "editor.mouseWheelZoom": true,
+    "editor.tabCompletion": "on",
+    "editor.suggest.showFolders": true,
+    "[html]": {
+
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "Notes.notesLocation": "/home/michael/Documents/notes",
+    "html.preview.scrollEditorWithPreview": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "editor.autoClosingDelete": "auto",
+    "workbench.editor.autoLockGroups": {},
+    "html.autoClosingTags": false,
+    "javascript.autoClosingTags": false,
+    "typescript.autoClosingTags": true,
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.NoBrowser": false,
+    "liveServer.settings.useLocalIp": true,
+    "workbench.editorAssociations": {
+      ".html": "default",
+      "*.html": "default"
+    },
+    "gitlens.advanced.messages": {
+      "suppressGitMissingWarning": true,
+      "suppressLineUncommittedWarning": true
+    },
+    "jshint.options": {
+      "esversion": 6
+    },
+    "livePreview.notifyOnOpenLooseFile": false,
+    "explorer.confirmDragAndDrop": false,
+    "projectManager.git.baseFolders": [
+      "/home/michael/Documents"
+    ],
+    "projectManager.any.baseFolders": [
+      "/home/michael/Documents"
+    ],
+    "explorer.confirmDelete": false,
+    "git.autofetch": true,
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.explorerKind": "external",
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.associations": {
+      "*.json": "jsonc",
+      "*.js": "javascriptreact"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "bracketPairColorizer.depreciation-notice": false,
+    "liveServer.settings.fullReload": true,
+    "prettier.singleQuote": true,
+    "workbench.sideBar.location": "right",
+    "editor.fontLigatures": true,
+    "editor.bracketPairColorization.enabled": true,
+    "tabnine.experimentalAutoImports": true,
+    "workbench.colorTheme": "Just Black",
+    "window.zoomLevel": -1,
+    "terminal.integrated.fontFamily": "'Anonymous Pro', monospace",
+    "editor.fontFamily": "'Anonymous Pro', monospace",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "keyboard.dispatch": "keyCode",
+    "editor.inlineSuggest.enabled": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.integrated.fontSize": 20,
+    "eslint.format.enable": true,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    
+    }
